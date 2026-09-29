@@ -8,6 +8,8 @@ tmp/
 # Generated posterior chains and logs
 results/fits/
 results/**/fits/
+results/original/summaries/*.json
+results/original/summaries/*_parameters.csv
 *.csv.tmp
 *-stdout.txt
 

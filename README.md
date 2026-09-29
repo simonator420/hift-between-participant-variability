@@ -48,6 +48,7 @@ The source dataset is licensed under CC BY 4.0. The source workbook MD5 was `6cf
 ## Results retained in the archive
 
 - calibrated and relaxed-prior RPE and lactate summaries;
+- the original-model sensitivity grid and prior-predictive summary;
 - prior- and posterior-predictive numerical checks;
 - individual posterior expectations;
 - prior-sensitivity comparisons;

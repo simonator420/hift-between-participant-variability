@@ -1,0 +1,68 @@
+{
+  "rpe": {
+    "levels": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "replicated_category_count": {
+      "5": {
+        "q025": 0.0,
+        "median": 9.0,
+        "q975": 41.0
+      },
+      "6": {
+        "q025": 0.0,
+        "median": 9.0,
+        "q975": 43.0
+      },
+      "7": {
+        "q025": 0.0,
+        "median": 9.5,
+        "q975": 43.0
+      },
+      "8": {
+        "q025": 0.0,
+        "median": 10.0,
+        "q975": 44.0
+      },
+      "9": {
+        "q025": 0.0,
+        "median": 9.0,
+        "q975": 41.0
+      },
+      "10": {
+        "q025": 0.0,
+        "median": 9.0,
+        "q975": 40.0
+      }
+    },
+    "replicated_mean_category": {
+      "q025": 6.133000000000001,
+      "median": 7.493333333333333,
+      "q975": 8.867
+    }
+  },
+  "lactate": {
+    "scale": "original mmol/L after exponentiating log predictions",
+    "replicated_geometric_mean": {
+      "q025": 4.7734244082091655,
+      "median": 10.008084583655668,
+      "q975": 21.323739753520357
+    },
+    "replicated_min": {
+      "q025": 0.1280780354057482,
+      "median": 1.975304973621769,
+      "q975": 7.402123159690414
+    },
+    "replicated_max": {
+      "q025": 14.396473617360414,
+      "median": 50.39829284348595,
+      "q975": 789.1278532278251
+    },
+    "note": "Heavy-tailed half-Student-t variance priors intentionally allow rare extreme datasets."
+  }
+}
