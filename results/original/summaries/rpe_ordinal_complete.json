@@ -1,0 +1,127 @@
+{
+  "model": "rpe_ordinal_complete",
+  "sigma_person_model_scale": {
+    "q025": 0.6526132,
+    "median": 1.4361350000000002,
+    "q975": 2.3487684999999994
+  },
+  "vpc": {
+    "q025": 0.11462075000000001,
+    "median": 0.3853415,
+    "q975": 0.6264306499999998
+  },
+  "diagnostics": {
+    "max_rhat": 1.0033,
+    "min_ess_bulk": 1680.25,
+    "min_ess_tail": 1824.77,
+    "divergences": 0,
+    "max_treedepth_observed": 7
+  },
+  "outcome": "RPE",
+  "family": "cumulative_logit",
+  "n_observations": 75,
+  "n_participants": 25,
+  "participant_ids": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "rpe_levels": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "prior_scale": 1.0,
+  "coefficients": {
+    "workout_FT": {
+      "q025": 0.40737995000000005,
+      "median": 1.344295,
+      "q975": 2.28156775
+    },
+    "workout_EMOM": {
+      "q025": -2.300265,
+      "median": -1.344855,
+      "q975": -0.4023806500000002
+    },
+    "work_repetitions_z": {
+      "q025": -1.0950719999999998,
+      "median": -0.40106299999999995,
+      "q975": 0.2906473249999996
+    }
+  },
+  "posterior_predictive": {
+    "5": {
+      "observed_n": 4,
+      "replicated_n": {
+        "q025": 1.0,
+        "median": 4.0,
+        "q975": 10.0
+      }
+    },
+    "6": {
+      "observed_n": 14,
+      "replicated_n": {
+        "q025": 7.0,
+        "median": 14.0,
+        "q975": 23.0
+      }
+    },
+    "7": {
+      "observed_n": 22,
+      "replicated_n": {
+        "q025": 12.0,
+        "median": 21.0,
+        "q975": 32.0
+      }
+    },
+    "8": {
+      "observed_n": 24,
+      "replicated_n": {
+        "q025": 13.0,
+        "median": 23.0,
+        "q975": 33.0
+      }
+    },
+    "9": {
+      "observed_n": 10,
+      "replicated_n": {
+        "q025": 4.0,
+        "median": 10.0,
+        "q975": 18.0
+      }
+    },
+    "10": {
+      "observed_n": 1,
+      "replicated_n": {
+        "q025": 0.0,
+        "median": 1.0,
+        "q975": 6.0
+      }
+    }
+  }
+}

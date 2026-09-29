@@ -1,0 +1,37 @@
+{
+  "model": "rpe_calibrated_relaxed",
+  "sigma_person": {
+    "q025": 0.6505035,
+    "median": 1.3915549999999999,
+    "q975": 2.26122225
+  },
+  "vpc": {
+    "q025": 0.113965225,
+    "median": 0.370516,
+    "q975": 0.60848965
+  },
+  "diagnostics": {
+    "max_rhat": 1.00149,
+    "min_ess_bulk": 1958.83,
+    "min_ess_tail": 3552.68,
+    "divergences": 0,
+    "max_treedepth_observed": 7
+  },
+  "coefficients": {
+    "workout_FT": {
+      "q025": 0.368597525,
+      "median": 1.18303,
+      "q975": 2.0363775
+    },
+    "workout_EMOM": {
+      "q025": -2.03138125,
+      "median": -1.174545,
+      "q975": -0.3409289500000001
+    },
+    "work_z": {
+      "q025": -0.8703264000000001,
+      "median": -0.287971,
+      "q975": 0.27529049999999977
+    }
+  }
+}

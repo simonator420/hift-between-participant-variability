@@ -1,0 +1,28 @@
+{
+  "title": "Between-participant variability in matched-load HIFT: Reproducibility package",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Salaj, Simon"
+    }
+  ],
+  "description": "Reproducibility package for a Bayesian secondary analysis of between-participant variability in perceptual and physiological responses to matched-load high-intensity functional training.",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": [
+    "high-intensity functional training",
+    "perceived exertion",
+    "blood lactate",
+    "between-participant variability",
+    "Bayesian multilevel model",
+    "variance partition coefficient"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/simonator420/hift-between-participant-variability",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

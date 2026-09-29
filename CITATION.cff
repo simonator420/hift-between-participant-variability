@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the archived release."
+type: software
+title: "Between-participant variability in matched-load HIFT: Reproducibility package"
+authors:
+  - family-names: Salaj
+    given-names: Simon
+repository-code: "https://github.com/simonator420/hift-between-participant-variability"
+version: "1.0.0"
+date-released: "2026-09-29"
+license: MIT
+keywords:
+  - high-intensity functional training
+  - perceived exertion
+  - blood lactate
+  - between-participant variability
+  - Bayesian multilevel model
+  - variance partition coefficient
+abstract: "Reproducibility package for a Bayesian secondary analysis of between-participant variability in perceptual and physiological responses to matched-load high-intensity functional training."

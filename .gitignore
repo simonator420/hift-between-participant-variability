@@ -1,0 +1,37 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tmp/
+
+# Generated posterior chains and logs
+results/fits/
+results/**/fits/
+*.csv.tmp
+*-stdout.txt
+
+# CmdStan compilation products
+analysis/models/gaussian_random_intercept
+analysis/models/log_lactate_calibrated
+analysis/models/ordinal_calibrated
+analysis/models/ordinal_random_intercept
+analysis/models/student_t_random_intercept
+analysis/models/*.hpp
+analysis/models/*.o
+analysis/models/*.d
+
+# Deliberately excluded publication and working files
+figures/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.tif
+*.tiff
+*.eps
+*.pdf
+*.doc
+*.docx
+*.zip
+~$*

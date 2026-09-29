@@ -1,0 +1,56 @@
+{
+  "full_sample_vpc": {
+    "RPE": {
+      "q025": 0.0556092425,
+      "median": 0.2972285,
+      "q975": 0.51817795
+    },
+    "Lactate": {
+      "q025": 0.207537025,
+      "median": 0.463326,
+      "q975": 0.6752166749999999
+    }
+  },
+  "outcomes": {
+    "RPE": {
+      "leave_one_out_vpc_median_range": {
+        "min": 0.1796055,
+        "max": 0.3281064999999999
+      },
+      "leave_one_out_vpc_interval_endpoint_range": {
+        "q025_min": 0.00205104775,
+        "q025_max": 0.0724029725,
+        "q975_min": 0.428879925,
+        "q975_max": 0.54993015
+      },
+      "largest_absolute_change": {
+        "omitted_id": 25,
+        "vpc_median": 0.1796055,
+        "change_from_full": -0.117623
+      },
+      "maximum_rhat": 1.00932,
+      "minimum_bulk_ess": 596.912,
+      "total_divergences": 0
+    },
+    "Lactate": {
+      "leave_one_out_vpc_median_range": {
+        "min": 0.4142355,
+        "max": 0.5060899999999999
+      },
+      "leave_one_out_vpc_interval_endpoint_range": {
+        "q025_min": 0.1424594,
+        "q025_max": 0.2558664,
+        "q975_min": 0.6477461,
+        "q975_max": 0.70666175
+      },
+      "largest_absolute_change": {
+        "omitted_id": 15,
+        "vpc_median": 0.4142355,
+        "change_from_full": -0.04909050000000004
+      },
+      "maximum_rhat": 1.00844,
+      "minimum_bulk_ess": 625.969,
+      "total_divergences": 0
+    }
+  }
+}

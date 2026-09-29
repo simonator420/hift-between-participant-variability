@@ -1,0 +1,248 @@
+{
+  "rpe_by_workout": {
+    "AMRAP": {
+      "5": {
+        "observed": 1,
+        "replicated_count": {
+          "q025": 0.0,
+          "median": 1.0,
+          "q975": 4.0
+        }
+      },
+      "6": {
+        "observed": 4,
+        "replicated_count": {
+          "q025": 1.0,
+          "median": 4.0,
+          "q975": 9.0
+        }
+      },
+      "7": {
+        "observed": 7,
+        "replicated_count": {
+          "q025": 3.0,
+          "median": 8.0,
+          "q975": 13.0
+        }
+      },
+      "8": {
+        "observed": 12,
+        "replicated_count": {
+          "q025": 3.0,
+          "median": 8.0,
+          "q975": 13.0
+        }
+      },
+      "9": {
+        "observed": 1,
+        "replicated_count": {
+          "q025": 0.0,
+          "median": 3.0,
+          "q975": 7.0
+        }
+      },
+      "10": {
+        "observed": 0,
+        "replicated_count": {
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 2.0
+        }
+      }
+    },
+    "FT": {
+      "5": {
+        "observed": 0,
+        "replicated_count": {
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 2.0
+        }
+      },
+      "6": {
+        "observed": 1,
+        "replicated_count": {
+          "q025": 0.0,
+          "median": 2.0,
+          "q975": 6.0
+        }
+      },
+      "7": {
+        "observed": 6,
+        "replicated_count": {
+          "q025": 2.0,
+          "median": 6.0,
+          "q975": 11.0
+        }
+      },
+      "8": {
+        "observed": 11,
+        "replicated_count": {
+          "q025": 5.0,
+          "median": 10.0,
+          "q975": 15.0
+        }
+      },
+      "9": {
+        "observed": 6,
+        "replicated_count": {
+          "q025": 2.0,
+          "median": 6.0,
+          "q975": 11.0
+        }
+      },
+      "10": {
+        "observed": 1,
+        "replicated_count": {
+          "q025": 0.0,
+          "median": 1.0,
+          "q975": 4.0
+        }
+      }
+    },
+    "EMOM": {
+      "5": {
+        "observed": 3,
+        "replicated_count": {
+          "q025": 0.0,
+          "median": 3.0,
+          "q975": 7.0
+        }
+      },
+      "6": {
+        "observed": 9,
+        "replicated_count": {
+          "q025": 3.0,
+          "median": 7.0,
+          "q975": 13.0
+        }
+      },
+      "7": {
+        "observed": 9,
+        "replicated_count": {
+          "q025": 3.0,
+          "median": 8.0,
+          "q975": 13.0
+        }
+      },
+      "8": {
+        "observed": 1,
+        "replicated_count": {
+          "q025": 1.0,
+          "median": 5.0,
+          "q975": 10.0
+        }
+      },
+      "9": {
+        "observed": 3,
+        "replicated_count": {
+          "q025": 0.0,
+          "median": 1.0,
+          "q975": 4.0
+        }
+      },
+      "10": {
+        "observed": 0,
+        "replicated_count": {
+          "q025": 0.0,
+          "median": 0.0,
+          "q975": 1.0
+        }
+      }
+    }
+  },
+  "lactate_by_workout": {
+    "AMRAP": {
+      "observed_mean": 10.76,
+      "replicated_mean": {
+        "q025": 9.624374600000001,
+        "median": 10.772739,
+        "q975": 12.0679597
+      },
+      "observed_sd": 2.793892147763284,
+      "replicated_sd": {
+        "q025": 2.1533236291012314,
+        "median": 3.0610824499572145,
+        "q975": 4.362291436365439
+      },
+      "observed_min": 6.7,
+      "replicated_min": {
+        "q025": 4.22794525,
+        "median": 5.923895,
+        "q975": 7.474323749999999
+      },
+      "observed_max": 17.1,
+      "replicated_max": {
+        "q025": 14.235925,
+        "median": 17.8066,
+        "q975": 24.5914025
+      }
+    },
+    "FT": {
+      "observed_mean": 11.936,
+      "replicated_mean": {
+        "q025": 10.546498230000001,
+        "median": 11.847935399999997,
+        "q975": 13.29238561
+      },
+      "observed_sd": 3.369579597912278,
+      "replicated_sd": {
+        "q025": 2.4414164623049133,
+        "median": 3.4533727291530507,
+        "q975": 4.907096379440421
+      },
+      "observed_min": 6.2,
+      "replicated_min": {
+        "q025": 4.53072225,
+        "median": 6.41672,
+        "q975": 8.14833825
+      },
+      "observed_max": 20.7,
+      "replicated_max": {
+        "q025": 15.7696,
+        "median": 19.866349999999997,
+        "q975": 27.555547499999992
+      }
+    },
+    "EMOM": {
+      "observed_mean": 8.624,
+      "replicated_mean": {
+        "q025": 7.736982910000001,
+        "median": 8.684377399999999,
+        "q975": 9.77854212
+      },
+      "observed_sd": 2.7951267114986638,
+      "replicated_sd": {
+        "q025": 1.7968797881057732,
+        "median": 2.5601502220522936,
+        "q975": 3.711227841921119
+      },
+      "observed_min": 4.5,
+      "replicated_min": {
+        "q025": 3.2639345,
+        "median": 4.661745,
+        "q975": 5.951439999999999
+      },
+      "observed_max": 14.5,
+      "replicated_max": {
+        "q025": 11.572825,
+        "median": 14.76285,
+        "q975": 20.765267499999993
+      }
+    }
+  },
+  "between_participant": {
+    "rpe_sd_of_participant_means_observed": 0.8050764858994133,
+    "rpe_sd_of_participant_means_replicated": {
+      "q025": 0.5504207145111483,
+      "median": 0.7765068982069402,
+      "q975": 1.0060925515191046
+    },
+    "lactate_sd_of_participant_means_observed": 2.4699865046864797,
+    "lactate_sd_of_participant_means_replicated": {
+      "q025": 1.7783326809014874,
+      "median": 2.457943710501395,
+      "q975": 3.276416107656206
+    }
+  }
+}

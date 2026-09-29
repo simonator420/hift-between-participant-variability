@@ -1,0 +1,33 @@
+{
+  "source_file": "data/raw/DB (1).xlsx",
+  "source_md5": "6cf222762295ce5339f041c4f0999999",
+  "wide_dimensions": [
+    28,
+    42
+  ],
+  "unique_participants": 28,
+  "long_rows": 84,
+  "primary_complete_participants": 25,
+  "primary_complete_rows": 75,
+  "missing_emom_ids": [
+    11,
+    3,
+    19
+  ],
+  "sex_counts_primary": {
+    "man": 15,
+    "woman": 10
+  },
+  "missing_by_variable": {
+    "rpe": 3,
+    "lactate_pre": 3,
+    "lactate_post": 3,
+    "cmj_pre": 3,
+    "cmj_post": 3,
+    "cmj_change": 3,
+    "hrv_pre": 3,
+    "hrv_post": 3,
+    "hr_mean": 3,
+    "hr_max": 3
+  }
+}

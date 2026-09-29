@@ -1,0 +1,119 @@
+{
+  "model": "hrv_gaussian_complete",
+  "sigma_person_model_scale": {
+    "q025": 0.024365767500000003,
+    "median": 0.3343155,
+    "q975": 0.6763998749999998
+  },
+  "vpc": {
+    "q025": 0.0007240834250000001,
+    "median": 0.141469,
+    "q975": 0.4393579749999999
+  },
+  "diagnostics": {
+    "max_rhat": 1.00334,
+    "min_ess_bulk": 1375.96,
+    "min_ess_tail": 2215.33,
+    "divergences": 0,
+    "max_treedepth_observed": 6
+  },
+  "outcome": "hrv",
+  "family": "gaussian",
+  "n_observations": 75,
+  "n_participants": 25,
+  "participant_ids": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "prior_scale": 1.0,
+  "response_transform": "identity",
+  "response_center": 36.21333333333333,
+  "response_scale": 13.531038726166184,
+  "response_unit": "source units",
+  "baseline_transform": {
+    "mean": 61.28,
+    "sd": 8.829557241508834,
+    "logged": false
+  },
+  "sigma_person_outcome_scale": {
+    "q025": 0.3296941436352614,
+    "median": 4.5236359772576105,
+    "q975": 9.152392902998962
+  },
+  "coefficients": {
+    "intercept": {
+      "q025": 0.12224665,
+      "median": 0.473072,
+      "q975": 0.8109103249999999
+    },
+    "workout_FT": {
+      "q025": -1.11506175,
+      "median": -0.668892,
+      "q975": -0.20993205000000045
+    },
+    "workout_EMOM": {
+      "q025": -1.170809,
+      "median": -0.7345485,
+      "q975": -0.2838401500000013
+    },
+    "work_repetitions_z": {
+      "q025": -0.592292075,
+      "median": -0.34299199999999996,
+      "q975": -0.0944347825000001
+    },
+    "baseline_z": {
+      "q025": -0.19669082499999999,
+      "median": 0.032316250000000005,
+      "q975": 0.2565722
+    }
+  },
+  "posterior_predictive": {
+    "observed_mean": 1.9391895496786067e-16,
+    "replicated_mean": {
+      "q025": -0.26979930896666665,
+      "median": -0.004959122666666682,
+      "q975": 0.26513686109333334
+    },
+    "observed_sd": 1.0,
+    "replicated_sd": {
+      "q025": 0.8313268876010317,
+      "median": 1.0315305473453966,
+      "q975": 1.275250322878789
+    },
+    "observed_min": -1.715561813332455,
+    "replicated_min": {
+      "q025": -3.5319447499999996,
+      "median": -2.38577,
+      "q975": -1.6362905000000003
+    },
+    "observed_max": 2.4230709356602573,
+    "replicated_max": {
+      "q025": 1.6829642500000002,
+      "median": 2.45966,
+      "q975": 3.59748375
+    }
+  }
+}

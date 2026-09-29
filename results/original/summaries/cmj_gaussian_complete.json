@@ -1,0 +1,119 @@
+{
+  "model": "cmj_gaussian_complete",
+  "sigma_person_model_scale": {
+    "q025": 0.0489388525,
+    "median": 0.168421,
+    "q975": 0.3183912249999999
+  },
+  "vpc": {
+    "q025": 0.03267251500000001,
+    "median": 0.34152000000000005,
+    "q975": 0.6995265249999999
+  },
+  "diagnostics": {
+    "max_rhat": 1.00228,
+    "min_ess_bulk": 945.869,
+    "min_ess_tail": 1318.38,
+    "divergences": 0,
+    "max_treedepth_observed": 7
+  },
+  "outcome": "cmj",
+  "family": "gaussian",
+  "n_observations": 75,
+  "n_participants": 25,
+  "participant_ids": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "prior_scale": 1.0,
+  "response_transform": "identity",
+  "response_center": 34.32533333333333,
+  "response_scale": 6.647964397515275,
+  "response_unit": "cm",
+  "baseline_transform": {
+    "mean": 35.541066666666666,
+    "sd": 6.813012107869909,
+    "logged": false
+  },
+  "sigma_person_outcome_scale": {
+    "q025": 0.3253437490752514,
+    "median": 1.11965681179392,
+    "q975": 2.1166535282812746
+  },
+  "coefficients": {
+    "intercept": {
+      "q025": -0.17137739999999999,
+      "median": -0.05235475,
+      "q975": 0.06657766999999998
+    },
+    "workout_FT": {
+      "q025": -0.0784916375,
+      "median": 0.057605500000000004,
+      "q975": 0.186765275
+    },
+    "workout_EMOM": {
+      "q025": -0.04087084999999998,
+      "median": 0.0945327,
+      "q975": 0.227034925
+    },
+    "work_repetitions_z": {
+      "q025": -0.005262047999999998,
+      "median": 0.09874645000000001,
+      "q975": 0.2456979249999998
+    },
+    "baseline_z": {
+      "q025": 0.687030825,
+      "median": 0.8645480000000001,
+      "q975": 0.974581475
+    }
+  },
+  "posterior_predictive": {
+    "observed_mean": 8.585724723767877e-17,
+    "replicated_mean": {
+      "q025": -0.07940962841999988,
+      "median": -3.265656666668152e-05,
+      "q975": 0.07644423273333326
+    },
+    "observed_sd": 1.0,
+    "replicated_sd": {
+      "q025": 0.9293741038755443,
+      "median": 1.0028751109552745,
+      "q975": 1.0810778837518156
+    },
+    "observed_min": -2.4406468451301677,
+    "replicated_min": {
+      "q025": -2.9783667499999997,
+      "median": -2.53203,
+      "q975": -2.12647325
+    },
+    "observed_max": 1.6357889447679888,
+    "replicated_max": {
+      "q025": 1.3867685,
+      "median": 1.6953049999999998,
+      "q975": 2.1638919999999997
+    }
+  }
+}

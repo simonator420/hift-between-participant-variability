@@ -1,0 +1,54 @@
+{
+  "rpe": {
+    "replicated_mean": {
+      "q025": 5.973333333333334,
+      "median": 7.52,
+      "q975": 8.946666666666667
+    },
+    "expected_difference_plus_vs_minus_one_person_sd": {
+      "q025": 0.02550456967110917,
+      "median": 0.6149287784065232,
+      "q975": 2.3407831972937934
+    },
+    "probability_any_category": {
+      "5": 0.875,
+      "6": 0.91775,
+      "7": 0.94525,
+      "8": 0.94475,
+      "9": 0.918,
+      "10": 0.8735
+    }
+  },
+  "lactate": {
+    "replicated_geometric_mean_mmol": {
+      "q025": 6.419234112053705,
+      "median": 9.987503024691991,
+      "q975": 15.391293131006053
+    },
+    "replicated_max_mmol": {
+      "q025": 10.31825,
+      "median": 18.9684,
+      "q975": 43.7682475
+    },
+    "replicated_min_mmol": {
+      "q025": 2.28083825,
+      "median": 5.26351,
+      "q975": 9.396979250000001
+    },
+    "share_of_values_between_0_5_and_30_mmol": {
+      "q025": 0.96,
+      "median": 1.0,
+      "q975": 1.0
+    },
+    "share_of_values_above_30_mmol": {
+      "q025": 0.0,
+      "median": 0.0,
+      "q975": 0.04
+    }
+  },
+  "physiological_reference": {
+    "typical_postexercise_range_mmol": "approximately 5\u201315",
+    "broad_plausibility_envelope_mmol": "0.5\u201330",
+    "rationale": "The envelope deliberately exceeds typical HIFT values and includes unusual high-intensity observations near 20\u201326 mmol/L."
+  }
+}
