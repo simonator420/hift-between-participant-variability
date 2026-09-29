@@ -21,11 +21,19 @@ git push origin main --tags
 
 ## GitHub-Zenodo integration
 
-1. Sign in to Zenodo using the GitHub account that owns the repository.
-2. Open the Zenodo GitHub integration page, synchronize repositories, and enable this repository.
-3. On GitHub, create a release from tag `v1.0.0`.
+1. Sign in to Zenodo using the GitHub account `simonator420`.
+2. From the Zenodo profile menu open **GitHub**, click **Sync now**, find `simonator420/hift-between-participant-variability`, and enable it.
+3. Only after the repository is enabled, create the release:
+
+   ```bash
+   gh release create v1.0.0 \
+     --repo simonator420/hift-between-participant-variability \
+     --title "Version 1.0.0" \
+     --notes "First archived reproducibility release."
+   ```
+
 4. Wait for Zenodo to archive the release.
-5. Check the Zenodo record before using the DOI: creator `Simon Salaj`, resource type `Software`, version `1.0.0`, license `MIT`, and the correct GitHub link.
+5. Check the Zenodo record before using the DOI: creator `Simon Salaj` only, resource type `Software`, version `1.0.0`, license `MIT`, and the correct GitHub link.
 6. Add the version DOI to the manuscript Data Availability Statement and repository citation.
 
 Do not use the GitHub-generated source ZIP for manual Zenodo upload if it omits required files. For a manual deposit, create a clean archive from tracked files with `git archive`.
