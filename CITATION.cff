@@ -6,8 +6,8 @@ authors:
   - family-names: Salaj
     given-names: Simon
 repository-code: "https://github.com/simonator420/hift-between-participant-variability"
-version: "1.0.0"
-date-released: "2026-09-29"
+version: "1.1.0"
+date-released: "2026-11-15"
 license: MIT
 keywords:
   - high-intensity functional training

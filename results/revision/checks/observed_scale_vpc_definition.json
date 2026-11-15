@@ -1,0 +1,12 @@
+{
+  "definition": "variance of posterior expected participant means divided by total posterior predictive variance on RPE categories 5-10",
+  "participant_variance_ddof": 0,
+  "common_work": "work_z=0; format-specific fixed effects retained; pooled result averages between and within components across AMRAP, FT, and EMOM",
+  "actual_design": "descriptive secondary calculation using observed workout and work_z; not the primary estimand",
+  "fit_timestamps": {
+    "calibrated": "20261114142746",
+    "relaxed": "20261114142806"
+  },
+  "n_participants": 25,
+  "n_formats": 3
+}

@@ -14,7 +14,7 @@ data/       Analysis-ready public data
 results/    Machine-readable numerical results and model checks
 ```
 
-The repository intentionally excludes manuscripts, figures, compiled Stan files, posterior chain files, temporary files, and local software environments.
+Version 1.1.0 adds the numerical analyses used for the manuscript revision. The relaxed-prior RPE and lactate specifications are the revised primary models; calibrated specifications are retained as sensitivity analyses.
 
 ## Reproduce the analysis
 
@@ -31,11 +31,12 @@ python analysis/02_original_prior_predictive.py
 python analysis/03_primary_analysis.py
 python analysis/04_supportive_analysis.py
 python analysis/05_leave_one_out.py
+python analysis/06_revision_sensitivity.py --analysis all
 ```
 
-The full run is computationally intensive because the final step refits both primary models after omitting each participant. Use `python analysis/01_original_models.py --stage core` to regenerate only the original models required by the later scripts. Set `HIFT_CMDSTAN` if CmdStan is installed outside the default CmdStanPy location.
+The full run is computationally intensive: the leave-one-participant-out step repeatedly refits both models, and the revision-sensitivity step fits both likelihood- and prior-power grids. Use `python analysis/01_original_models.py --stage core` to regenerate only the original models required by the later scripts. Set `HIFT_CMDSTAN` if CmdStan is installed outside the default CmdStanPy location.
 
-Generated posterior chains are written below `results/` but are excluded from version control. The concise JSON and CSV results needed to audit the manuscript are retained.
+Generated posterior chains are written below `results/` but are excluded from version control. The final command adds likelihood power-scaling, prior power-scaling, and the observed-scale ordinal RPE VPC. The concise JSON and CSV results needed to audit the manuscript are retained.
 
 ## Data provenance
 
@@ -53,13 +54,18 @@ The source dataset is licensed under CC BY 4.0. The source workbook MD5 was `6cf
 - individual posterior expectations;
 - prior-sensitivity comparisons;
 - supportive-outcome estimand checks; and
-- all leave-one-participant-out VPC refits and their diagnostics.
+- all leave-one-participant-out VPC refits and their diagnostics;
+- likelihood and prior power-scaling summaries;
+- relaxed-primary participant predictions and posterior-predictive checks; and
+- the observed-scale analogue of the ordinal RPE VPC.
+
+The source-analysis summaries are under `results/original/`. Revised primary results, predictions, posterior-predictive checks, and calibrated sensitivity results are under `results/final/`. Additional power-scaling and observed-scale VPC outputs are under `results/revision/`.
 
 ## Citation
 
-Until a Zenodo DOI is assigned, cite this repository as:
+For a GitHub-only citation use the following; after Zenodo archives version 1.1.0, prefer its version DOI:
 
-> Salaj S. Between-participant variability in matched-load HIFT: Reproducibility package. Version 1.0.0. 2026. https://github.com/simonator420/hift-between-participant-variability
+> Salaj S. Between-participant variability in matched-load HIFT: Reproducibility package. Version 1.1.0. 2026. https://github.com/simonator420/hift-between-participant-variability
 
 ## License
 

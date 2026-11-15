@@ -1,0 +1,19 @@
+{
+  "RPE": {
+    "max_rhat": 1.00207,
+    "min_ess_bulk": 1732.93,
+    "min_ess_tail": 2658.56,
+    "divergences": 0,
+    "max_treedepth_observed": 7
+  },
+  "Lactate": {
+    "max_rhat": 1.00223,
+    "min_ess_bulk": 1415.7,
+    "min_ess_tail": 2585.07,
+    "divergences": 0,
+    "max_treedepth_observed": 7
+  },
+  "n_participants": 25,
+  "n_observations": 75,
+  "likelihood_power": 1.0
+}
