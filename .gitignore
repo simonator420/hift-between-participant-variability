@@ -19,6 +19,10 @@ analysis/models/log_lactate_calibrated
 analysis/models/ordinal_calibrated
 analysis/models/ordinal_random_intercept
 analysis/models/student_t_random_intercept
+analysis/models/log_lactate_power_scaled
+analysis/models/log_lactate_prior_power_scaled
+analysis/models/ordinal_power_scaled
+analysis/models/ordinal_prior_power_scaled
 analysis/models/*.hpp
 analysis/models/*.o
 analysis/models/*.d

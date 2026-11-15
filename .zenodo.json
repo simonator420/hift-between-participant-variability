@@ -6,10 +6,10 @@
       "name": "Salaj, Simon"
     }
   ],
-  "description": "Reproducibility package for a Bayesian secondary analysis of between-participant variability in perceptual and physiological responses to matched-load high-intensity functional training.",
+  "description": "Reproducibility package for a Bayesian secondary analysis of between-participant variability in perceptual and physiological responses to matched-load high-intensity functional training. Version 1.1.0 adds relaxed-primary analyses, likelihood and prior power-scaling, revised posterior predictions and posterior-predictive checks, and an observed-scale analogue of the ordinal RPE variance partition coefficient.",
   "access_right": "open",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "keywords": [
     "high-intensity functional training",
     "perceived exertion",

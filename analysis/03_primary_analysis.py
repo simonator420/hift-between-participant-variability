@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Physiologically calibrated priors, individual predictions, and targeted PPCs."""
+"""Relaxed primary models, calibrated sensitivity models, predictions, and PPCs."""
 
 from __future__ import annotations
 
@@ -269,9 +269,11 @@ def main() -> None:
     for name, obj in results.items():
         (OUT / "summaries" / f"{name}.json").write_text(json.dumps(obj, indent=2) + "\n")
 
-    individual = individual_predictions(r_fit, l_fit, d)
+    # The relaxed specification is the revised primary analysis. Calibrated
+    # fits remain above as an explicit prior-sensitivity analysis.
+    individual = individual_predictions(r_relaxed, l_relaxed, d)
     (OUT / "summaries" / "hypothetical_participants.json").write_text(json.dumps(individual, indent=2) + "\n")
-    ppc = posterior_predictive(r_fit, l_fit, d)
+    ppc = posterior_predictive(r_relaxed, l_relaxed, d)
     (OUT / "checks" / "targeted_posterior_predictive_checks.json").write_text(json.dumps(ppc, indent=2) + "\n")
 
     original_rpe = json.loads((ROOT / "results" / "original" / "summaries" / "rpe_ordinal_complete.json").read_text())
